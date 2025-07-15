@@ -32,7 +32,7 @@ final public class Tableau extends Pile {
         });
     }
     
-    //returns if card is legal to put on pile
+    //returns if card is legal
     public boolean isLegal(Card card) {
         if (card.getRank() == Card.Rank.KING) {
             return isEmpty();
