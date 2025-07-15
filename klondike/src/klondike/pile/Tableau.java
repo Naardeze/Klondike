@@ -10,7 +10,7 @@ import klondike.card.Card;
 */
 
 final public class Tableau extends Pile {
-    //extra y location in relation of the previous card
+    //extra y location in relation to the previous card
     final public static int DOWN = 8;
     final public static int UP = 20;
     
