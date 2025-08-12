@@ -154,7 +154,7 @@ final public class Game extends JLabel implements MouseListener, Runnable {
             } else if (findComponentAt(e.getPoint()) instanceof Card) {
                 Card card = (Card) findComponentAt(e.getPoint());
                 
-                //can continu
+                //can continue
                 if (pile instanceof Foundation || (pile == waste && card == waste.getCard()) || (pile instanceof Tableau && !Tableau.faceDown.contains(card))) {
                     Pile next = null;
 
@@ -255,3 +255,4 @@ final public class Game extends JLabel implements MouseListener, Runnable {
     }
 
 }
+
